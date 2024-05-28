@@ -92,6 +92,7 @@ html {
     margin: -5px 0px -20px 80px;
     display: inline-flex;
     color: red;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
