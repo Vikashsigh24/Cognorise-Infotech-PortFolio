@@ -26,7 +26,7 @@ html {
     background-image: url("img/row-one-background-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 720px;
+    height: auto;
 }
 
 .third-row-background {
@@ -144,7 +144,7 @@ html {
     float: left;
     width: 45%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .column p {
@@ -168,7 +168,6 @@ html {
 
 .icons li:hover {
     transform: scale(1.6);
-    color: white;
     transition: 0.5s;
 }
 
@@ -335,12 +334,16 @@ footer {
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: #4158D0;
     width: 100%;
-    margin-top: 50px;
+    height: auto;
 }
 
 footer h1 {
     text-align: center;
     color: #1d212b;
+}
+
+.contact-me {
+    padding: 50px;
 }
 
 .footer-card-body i {
@@ -372,13 +375,11 @@ h3 i {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:768px) {
 
     .margin-left {
-        margin-left: 0;
+        margin-left: 0px;
     }
-
-
 
     .name {
         display: block;
@@ -387,7 +388,7 @@ h3 i {
         margin-top: 5px;
     }
 
-    .name a{
+    .name a {
         text-decoration: none;
 
     }
@@ -471,7 +472,46 @@ h3 i {
     }
 
     footer {
-        height: 550px;
+        height: auto;
     }
 
+}
+
+@media screen and (min-width:769px) and (max-width: 1165px) {
+    
+    .container{
+        margin: 20px ;
+    }
+    .right-nav{
+        margin: 0 auto;
+    }
+  
+    .right-nav a {
+        padding: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        display: inline-block;
+        align-items: center;
+
+    }
+    .name {
+        margin: 0px 0px 10px 20px;
+    }
+
+    .column {
+        line-height: 32px;
+        float: left;
+        width: 45%;
+        height: min-content;
+        margin-top: 140px;
+
+    }
+
+    .margin-left {
+        margin-left: 50px;
+    }
+
+    .buttons button{
+        margin: 10px;
+    }
 }
