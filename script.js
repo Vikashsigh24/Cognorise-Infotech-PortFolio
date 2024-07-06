@@ -13,7 +13,7 @@ function hide() {
     } else {
         btn.innerText = 'View More';
     }
-
+ 
 };
 
 document.querySelectorAll('.right-nav a').forEach(link => {
