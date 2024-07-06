@@ -1,2 +1,2 @@
 # PortFolio
-Using HTML, CSS, JavaScript
+Using HTML, CSS, JavaScript.
